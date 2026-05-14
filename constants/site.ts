@@ -1,0 +1,43 @@
+export const SITE_CONFIG = {
+  name: 'IFL Institute',
+  shortName: 'IFL',
+  tagline: "Delhi's Most Trusted Computer Training Institute",
+  description:
+    'IFL Institute offers E-Max certified computer courses, MS Office, graphic design, and English communication training in Delhi. Affordable fees, expert faculty, and placement guidance.',
+  url: 'https://iflinstitute.in',
+  address: {
+    street: '123, Main Market, Sector-9, Rohini',
+    city: 'Delhi',
+    state: 'Delhi',
+    zip: '110085',
+    country: 'India',
+    full: '123, Main Market, Sector-9, Rohini, Delhi - 110085',
+    mapQuery: 'Rohini+Sector+9+Delhi',
+  },
+  phone: '+91-98765-43210',
+  phoneRaw: '919876543210',
+  whatsapp: '919876543210',
+  email: 'info@iflinstitute.in',
+  mapEmbedUrl:
+    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.4960!2d77.1132!3d28.7171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d01a8d3b2a7b1%3A0x5c0a06b7e5a7d8e3!2sRohini%2C+Delhi!5e0!3m2!1sen!2sin!4v1715000000000!5m2!1sen!2sin',
+  established: 2015,
+  studentsEnrolled: 5000,
+  coursesOffered: 12,
+  batchesCompleted: 80,
+  successRate: 95,
+  social: {
+    facebook: 'https://facebook.com/iflinstitute',
+    instagram: 'https://instagram.com/iflinstitute',
+    youtube: 'https://youtube.com/@iflinstitute',
+  },
+  keywords: [
+    'computer institute in Delhi',
+    'best computer course in Delhi',
+    'affordable computer training Delhi',
+    'E-Max certified institute',
+    'computer classes near me Delhi',
+    'IFL Institute Rohini',
+    'MS Office course Delhi',
+    'graphic design course Delhi',
+  ],
+} as const
