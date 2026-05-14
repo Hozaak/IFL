@@ -9,6 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        // This adds the missing 'border-border' utility used in your globals.css
+        border: 'hsl(var(--border, 214.3 31.8% 91.4%))', 
         brand: {
           50: '#eff6ff',
           100: '#dbeafe',
